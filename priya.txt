@@ -1,0 +1,31 @@
+only inside the consructor not in method 
+package p1;
+class one 
+{
+    public int num1=90;
+}
+class two extends one
+{
+    public int num1=67;
+    public void display ()
+    system.out println(num1);
+}
+    
+        public static void main (string [] args ){
+            two obj =new two ();
+            //obj.display();
+            system.out .println()obj.num1);
+            system.out.println(super.num1);
+        }
+    }
+    public class test34{
+    
+}
+}
+
+
+
+
+
+
+
